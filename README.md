@@ -106,6 +106,10 @@ From project root:
 ```
  dashboard.py
 ```
+<img width="1920" height="1020" alt="Screenshot 2025-12-12 210002" src="https://github.com/user-attachments/assets/0a79e5cf-2a09-4c5e-9ac8-aeca32357621" />
+
+<img width="1920" height="1020" alt="Screenshot 2025-12-12 210038" src="https://github.com/user-attachments/assets/baa79566-dd64-4f54-81ac-99a3feaa382d" />
+
 
 The dashboard will open in your web browser at:
 
@@ -171,5 +175,6 @@ This project is open-source and available under the MIT License.
 AI for Bharat – Week 3 Submission
 
 ---
+
 
 
