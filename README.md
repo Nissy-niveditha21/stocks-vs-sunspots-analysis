@@ -37,8 +37,9 @@ This project analyzes whether long-term solar activity cycles (measured using th
 │
 ├── src/
 │   ├── data_loader.py
-│   ├── transform.py
-│   └── dashboard.py
+│   |── transform.py
+|
+│── dashboard.py
 │
 ├── notebooks/
 │   └── explore.ipynb
@@ -89,9 +90,11 @@ Contents of `requirements.txt`:
 ```
 pandas
 numpy
-streamlit
-plotly
-matplotlib
+panel
+bokeh
+holoviews
+hvplot
+pyviz-comms
 ```
 
 ---
@@ -101,13 +104,13 @@ matplotlib
 From project root:
 
 ```
-streamlit run src/dashboard.py
+ dashboard.py
 ```
 
 The dashboard will open in your web browser at:
 
 ```
-http://localhost:8501
+http://127.0.0.1:5006/dashboard
 ```
 
 ---
@@ -157,6 +160,9 @@ Handles CSV loading and datetime parsing.
 ## 10. License
 
 This project is open-source and available under the MIT License.
+
+
+****** http://127.0.0.1:5006/dashboard ******
 
 ---
 
