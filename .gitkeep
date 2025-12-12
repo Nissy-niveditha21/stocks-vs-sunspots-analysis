@@ -1,6 +1,0 @@
-cd .kiro
-type nul > .gitkeep   # Windows
-cd ..
-git add .kiro/.gitkeep
-git commit -m "Add .kiro folder placeholder"
-git push

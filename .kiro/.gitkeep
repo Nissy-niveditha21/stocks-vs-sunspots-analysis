@@ -1,5 +1,5 @@
 cd .kiro
-type nul > .gitkeep   # Windows
+type nul > .gitkeep   
 cd ..
 git add .kiro/.gitkeep
 git commit -m "Add .kiro folder placeholder"

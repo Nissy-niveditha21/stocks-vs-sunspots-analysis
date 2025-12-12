@@ -1,5 +1,7 @@
 pandas
 numpy
-matplotlib
-plotly
-streamlit
+panel
+bokeh
+holoviews
+hvplot
+pyviz-comms

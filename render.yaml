@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: stocks-vs-sunspots-dashboard
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: panel serve dashboard.py --address 0.0.0.0 --port 10000
